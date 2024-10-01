@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, Image, ScrollView, Dimensions } from 'react-native';
 
-export default function HomeScreen() {
+export default function MeditationScreen() {
   return (
     <ScrollView style={styles.container}>
       {/* <View style={styles.header}>
@@ -10,7 +10,7 @@ export default function HomeScreen() {
       </View> */}
 
       <Image 
-        source={require('@/assets/Home.png')} 
+        source={require('@/assets/Meditation.png')} 
         style={styles.screen} 
         resizeMode='contain'
       />
